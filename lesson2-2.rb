@@ -3,7 +3,7 @@
 #   puts "#{a}: #{b}"
 # end
 
-p /Ruby/ =~ "aaa Ruby aaa"
-p /ruby/ =~ "Ruby"
-p /ruby/ =~ "ruby"
-p /Ruby/i =~ "ruby"
+# p /Ruby/ =~ "aaa Ruby aaa"
+# p /ruby/ =~ "Ruby"
+# p /ruby/ =~ "ruby"
+# p /Ruby/i =~ "ruby"
