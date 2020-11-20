@@ -21,7 +21,7 @@ class Receipt
     @lines.each do |line|
       puts "#{line[:name]} #{line[:price]}円 x #{line[:num]}"
     end
-    puts "合計金額: #{calc}円"
+    puts "合計金額: #{calc}円です"
   end
 end
 r = Receipt.new("ストアA")
