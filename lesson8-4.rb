@@ -34,8 +34,9 @@ end
 
 r1 = Receipt.new("ストアA")
 r2 = Receipt.new("ストアN")
-
+r3 = Receipt.new("ストアZ")
 p Receipt.count
 r1.output
 r2.output
+r3.output
 p Receipt.count
